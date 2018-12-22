@@ -21,6 +21,9 @@ module.exports = async function () {
 	core.addAction('cp-coc', async () => {
 		core.fs.cpTpl(__dirname, 'CODE_OF_CONDUCT.md', 'CODE_OF_CONDUCT.md', core.getModel());
 	});		
+	core.addAction('cp-license', async () => {
+		core.fs.cpTpl(__dirname, 'LICENSE', 'LICENSE', core.getModel());
+	});			
 	core.addAction('cp-readme', async () => {
 		core.fs.cpTpl(__dirname, 'README.md', 'README.md', core.getModel());
 	});

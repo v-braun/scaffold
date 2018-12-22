@@ -28,8 +28,9 @@ scaffold
 > See go-module or npm-module to start.
 
 **additional hints:**
-1.: Generators are placed as subfolders under *generators*
-2.: File templates should be placed under a subfolder named *templates*
+
+- Generators are placed as subfolders under *generators*
+- File templates should be placed under a subfolder named *templates*
 
 
 
