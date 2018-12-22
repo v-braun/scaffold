@@ -1,0 +1,29 @@
+{
+  "name": "scaffold",
+  "version": "1.0.0",
+  "description": "My personal project scaffold tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v-braun/scaffold"
+  },
+  "main": "cli.js",
+  "bin": {
+    "scaffold": "cli.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "scaffold",
+    "project-scaffold"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.1",
+    "log-symbols": "^2.2.0",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^5.1.0"
+  }
+}
