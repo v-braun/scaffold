@@ -3,6 +3,7 @@
 
 By [v-braun - <%= web %>](https://<%= web %>).
 
+[![](https://img.shields.io/github/license/<%= author %>/<%= name %>.svg?style=flat-square)](<%= repo %>/blob/master/LICENSE)
 <%if(locals.shields) { -%>
 <%= shields %>
 <% } -%>
