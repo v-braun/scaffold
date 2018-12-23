@@ -27,12 +27,13 @@ scaffold
 
 > See go-module or npm-module to start.
 
-**additional hints:**
+additional hints:
 
 - Generators are placed as subfolders under *generators*
 - File templates should be placed under a subfolder named *templates*
 
 
+------------------------------------------------
 
 
 ## Authors

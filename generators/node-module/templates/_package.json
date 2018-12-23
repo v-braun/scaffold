@@ -1,0 +1,21 @@
+{
+    "name": "<%= name %>",
+    "version": "1.0.0",
+    "description": "<%= description %>",
+    "repository": {
+      "type": "git",
+      "url": "<%= repo %>.git"
+    },
+    "main": "./index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+    ],  
+    "bugs": {
+      "url": "<%= repo %>/issues"
+    },  
+    "author": "<%= author %> (<%= mail %>)",
+    "license": "MIT"
+  }
+  

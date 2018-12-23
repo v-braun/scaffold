@@ -24,6 +24,9 @@ module.exports = async function () {
 	core.addAction('cp-license', async () => {
 		core.fs.cpTpl(__dirname, 'LICENSE', 'LICENSE', core.getModel());
 	});			
+	core.addAction('cp-editorconfig', async () => {
+		core.fs.cpTpl(__dirname, '.editorconfig', '.editorconfig', core.getModel());
+	});		
 	core.addAction('cp-readme', async () => {
 		core.fs.cpTpl(__dirname, 'README.md', 'README.md', core.getModel());
 	});
