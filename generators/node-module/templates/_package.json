@@ -15,7 +15,7 @@
     "bugs": {
       "url": "<%= repo %>/issues"
     },  
-    "author": "<%= author %> (<%= mail %>)",
+    "author": "<%= author %> (<%= email %>)",
     "license": "MIT"
   }
   
