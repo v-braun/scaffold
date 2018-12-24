@@ -39,5 +39,6 @@ module.exports = async () => {
 	core.setModelProp('installation', '');
 	core.setModelProp('usage', '');
 	core.setModelProp('configuration', '');
+	core.setModelProp('readme_other', '');
 
 };

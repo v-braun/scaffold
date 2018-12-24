@@ -4,6 +4,7 @@
 By [v-braun - <%= web %>](https://<%= web %>).
 
 [![](https://img.shields.io/github/license/<%= author %>/<%= name %>.svg?style=flat-square)](<%= repo %>/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/<%= author %>/<%= name %>.svg?branch=master)](https://travis-ci.org/<%= author %>/<%= name %>)
 <%if(locals.shields) { -%>
 <%= shields %>
 <% } -%>
@@ -13,7 +14,7 @@ By [v-braun - <%= web %>](https://<%= web %>).
 </p>
 
 <%if(locals.preview) { -%>
-<%= preview %>
+<%- preview %>
 <% } -%>
 
 ## Description
@@ -21,18 +22,22 @@ By [v-braun - <%= web %>](https://<%= web %>).
 
 <%if(locals.installation) { -%>
 ## Installation
-<%= installation %>
+<%- installation %>
 <% } -%>
 
 
 <%if(locals.usage) { -%>
 ## Usage
-<%= usage %>
+<%- usage %>
 <% } -%>
 
 <%if(locals.configuration) { -%>
 ## Configuration
-<%= configuration %>
+<%- configuration %>
+<% } -%>
+
+<%if(locals.readme_other) { -%>
+<%- readme_other %>
 <% } -%>
 
 
