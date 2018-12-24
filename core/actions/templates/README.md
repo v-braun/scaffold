@@ -5,7 +5,6 @@ By [v-braun - <%= web %>](https://<%= web %>).
 
 [![](https://img.shields.io/github/license/<%= author %>/<%= name %>.svg?style=flat-square)](<%= repo %>/blob/master/LICENSE)
 [![Build Status](https://img.shields.io/travis/<%= author %>/<%= name %>.svg?style=flat-square)](https://travis-ci.org/<%= author %>/<%= name %>)
-
 <%if(locals.shields) { -%>
 <%= shields %>
 <% } -%>
