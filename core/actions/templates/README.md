@@ -8,6 +8,7 @@ By [v-braun - <%= web %>](https://<%= web %>).
 <%if(locals.shields) { -%>
 <%= shields %>
 <% } -%>
+![PR welcome](https://img.shields.io/badge/PR-welcome-green.svg?style=flat-square)
 
 <p align="center">
 <img width="70%" src="<%= banner %>" />
