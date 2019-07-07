@@ -1,0 +1,3 @@
+[![codecov](https://codecov.io/gh/<%= author %>/<%= name %>/branch/master/graph/badge.svg)](https://codecov.io/gh/<%= author %>/<%= name %>)
+[![Go Report Card](https://goreportcard.com/badge/github.com/<%= author %>/<%= name %>)](https://goreportcard.com/report/github.com/<%= author %>/<%= name %>)
+[![Documentation](https://godoc.org/github.com/<%= author %>/<%= name %>?status.svg)](http://godoc.org/github.com/<%= author %>/<%= name %>)
